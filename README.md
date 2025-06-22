@@ -1,2 +1,6 @@
-# Ley-de-bernoulli
-Uso del promt para crear una calculadora de la ley de bernoulli para el curso de programacion 
+# Untitled
+
+A Pen created on CodePen.
+
+Original URL: [https://codepen.io/diogoguerre/pen/NPqEgyW](https://codepen.io/diogoguerre/pen/NPqEgyW).
+

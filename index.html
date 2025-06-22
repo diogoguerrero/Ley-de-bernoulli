@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora Ley de Bernoulli</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Calculadora Ley de Bernoulli</h1>
+    <p>Introduce dos valores y deja uno vacío para calcularlo</p>
+
+    <label>Presión P₂ (Pa):</label><br>
+    <input type="number" id="P2" placeholder="Ej: 100000"><br>
+
+    <label>Velocidad v₂ (m/s):</label><br>
+    <input type="number" id="v2" placeholder="Ej: 5"><br>
+
+    <label>Altura h₂ (m):</label><br>
+    <input type="number" id="h2" placeholder="Ej: 10"><br>
+
+    <button onclick="calcularBernoulli()">Calcular</button>
+    <button onclick="reiniciar()">Restablecer</button>
+
+    <h2 id="resultado"></h2>
+
+    <canvas id="grafico" width="400" height="200"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
